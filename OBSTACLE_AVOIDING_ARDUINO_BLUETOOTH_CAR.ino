@@ -9,6 +9,7 @@
 //AFMotor Library https://learn.adafruit.com/adafruit-motor-shield/library-install
 //After downloading the library open Arduino IDE >> go to sketch >> Include Libray >> ADD. ZIP Libray >> Select the downloaded file
 //Now You Can Upload the Code without any problem but make sure the bluetooth module isn't connected with Arduino while uploading code
+//This Code uses IR sensor to avoid obstacles
 
 #include <AFMotor.h>
 #include <Servo.h>
