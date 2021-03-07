@@ -1,5 +1,6 @@
-//Arduino Bluetooth Controlled Car MODIFIED by GAURAV SINGH originaly written by DIY BUILDER.
-//This code is heavily modified to work for this particular app inked below.
+*****************************************************************************************
+***************OBSTACLE_AVOIDING_ARDUINO_BLUETOOTH_CAR***********************************
+*****************************************************************************************
 // The Bluetooth control Application is available on playstore kindly use the below link.
 //Link https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller
 //Note: This Code is Only Tested on this Application.
