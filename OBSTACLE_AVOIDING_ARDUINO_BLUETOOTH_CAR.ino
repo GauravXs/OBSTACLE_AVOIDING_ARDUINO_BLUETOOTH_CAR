@@ -1,6 +1,6 @@
-*****************************************************************************************
-***************OBSTACLE_AVOIDING_IR_ARDUINO_BLUETOOTH_CAR********************************
-*****************************************************************************************
+//*****************************************************************************************
+//***************OBSTACLE_AVOIDING_IR_ARDUINO_BLUETOOTH_CAR********************************
+//*****************************************************************************************
 // The Bluetooth control Application is available on playstore kindly use the below link.
 //Link https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller
 //Note: This Code is Only Tested on this Application.
