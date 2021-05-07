@@ -51,16 +51,16 @@ void loop()
   if ((Right_Value == LOW) && (Left_Value == LOW) && ((command == 'F') || (command == 'L') || (command == 'R') || (command == 'G') || (command == 'I')))
   {
     back();
-  } else if ((Right_Value == HIGH) && (Left_Value == LOW) && ((command == 'F') || (command == 'L') || (command == 'R') || (command == 'G') || (command == 'I'))) 
+  } else if ((Right_Value == HIGH) && (Left_Value == LOW) && ((command == 'F') || (command == 'L') || (command == 'R') || (command == 'G') || (command == 'I')))
   {
     left();
-  } else if ((Right_Value == LOW) && (Left_Value == HIGH) && ((command == 'F') || (command == 'L') || (command == 'R') || (command == 'G') || (command == 'I'))) 
+  } else if ((Right_Value == LOW) && (Left_Value == HIGH) && ((command == 'F') || (command == 'L') || (command == 'R') || (command == 'G') || (command == 'I')))
   {
     right();
   } else if ((command == 'F'))
   {
     forward();
-  } else if ((command =='L'))
+  } else if ((command == 'L'))
   {
     left();
   } else if ((command == 'R'))
@@ -81,7 +81,7 @@ void loop()
   } else if ((command == 'J'))
   {
     back_right();
-  } else if ((command =='S'))
+  } else if ((command == 'S'))
   {
     Stop();
   } else
@@ -89,22 +89,22 @@ void loop()
     Stop();
   }
 
-   switch (command) {
-      case 'L': //to move car in left direction
-        myservo.write(135);
-        break;
-      case 'R': //to move car in right direction
-        myservo.write(-25);
-        break;
-      case 'G': //to move car in forward left direction
-        myservo.write(135);
-        break;
-      case 'I': //to move car in forward right direction
-        myservo.write(-25);
-        break;
-      default:
-        myservo.write(pos);
-    }
+  switch (command) {
+    case 'L': //to move car in left direction
+      myservo.write(135);
+      break;
+    case 'R': //to move car in right direction
+      myservo.write(-25);
+      break;
+    case 'G': //to move car in forward left direction
+      myservo.write(135);
+      break;
+    case 'I': //to move car in forward right direction
+      myservo.write(-25);
+      break;
+    default:
+      myservo.write(pos);
+  }
 }
 
 void forward()
